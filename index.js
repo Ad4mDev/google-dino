@@ -14,7 +14,7 @@ function jump() {
         if(blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
             block.style.animation = 'none';
             block.style.display = 'none';
-            if(!alert("You SUCK, Click OK now")) {
+            if(!alert("GAME OVER , Click on OK to play new game.")) {
                 window.location.reload();
             }
         }
